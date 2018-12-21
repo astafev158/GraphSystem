@@ -1,0 +1,40 @@
+﻿  main.c
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: APIENTRY: изменение макроопределения
+  c:\users\2012\desktop\rgz\include\glfw\glfw3.h(98): note: см. предыдущее определение "APIENTRY"
+c:\users\2012\desktop\rgz\main.c(94): warning C4047: функция: "GLuint" отличается по уровням косвенного обращения от "GLuint *"
+c:\users\2012\desktop\rgz\main.c(94): warning C4024: __glewGetProgramInfoLog: различные типы для формального и фактического параметров 1
+c:\users\2012\desktop\rgz\main.c(170): warning C4047: инициализация: "LPVOID *" отличается по уровням косвенного обращения от "LPARAM"
+c:\users\2012\desktop\rgz\main.c(171): warning C4047: инициализация: "int" отличается по уровням косвенного обращения от "LPVOID"
+c:\users\2012\desktop\rgz\main.c(234): warning C4047: функция: "LPARAM" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(234): warning C4024: create_window: различные типы для формального и фактического параметров 2
+c:\users\2012\desktop\rgz\main.c(235): warning C4133: функция: несовместимые типы - из "LPVOID *" в "figure **"
+c:\users\2012\desktop\rgz\main.c(235): warning C4047: функция: "HWND **" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(235): warning C4024: init_figures: различные типы для формального и фактического параметров 3
+c:\users\2012\desktop\rgz\main.c(235): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(235): warning C4024: init_figures: различные типы для формального и фактического параметров 4
+c:\users\2012\desktop\rgz\main.c(280): warning C4047: функция: "LPARAM" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(280): warning C4024: on_settings_click: различные типы для формального и фактического параметров 3
+  obj.c
+c:\users\2012\desktop\rgz\obj.c(17): warning C4090: функция: разные квалификаторы "const"
+c:\users\2012\desktop\rgz\obj.c(18): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+c:\users\2012\desktop\rgz\obj.c(30): warning C4090: функция: разные квалификаторы "const"
+c:\users\2012\desktop\rgz\obj.c(30): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+c:\users\2012\desktop\rgz\obj.c(31): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+c:\users\2012\desktop\rgz\obj.c(43): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+  settings_window.c
+c:\users\2012\desktop\rgz\settings_window.c(14): warning C4047: функция: "LONG_PTR" отличается по уровням косвенного обращения от "LPVOID"
+c:\users\2012\desktop\rgz\settings_window.c(14): warning C4024: SetWindowLongPtrA: различные типы для формального и фактического параметров 3
+c:\users\2012\desktop\rgz\settings_window.c(19): warning C4047: функция: "HWND" отличается по уровням косвенного обращения от "LPARAM"
+c:\users\2012\desktop\rgz\settings_window.c(19): warning C4024: функция по указателю: различные типы для формального и фактического параметров 2
+c:\users\2012\desktop\rgz\settings_window.c(13): warning C4047: инициализация: "LPCREATESTRUCT" отличается по уровням косвенного обращения от "LPARAM"
+c:\users\2012\desktop\rgz\settings_window.c(17): warning C4047: инициализация: "WIN_USERDATA *" отличается по уровням косвенного обращения от "LONG_PTR"
+c:\users\2012\desktop\rgz\settings_window.c(37): warning C4047: =: "HBRUSH" отличается по уровням косвенного обращения от "int"
+c:\users\2012\desktop\rgz\settings_window.c(27): warning C4047: инициализация: "HINSTANCE" отличается по уровням косвенного обращения от "LONG_PTR"
+c:\users\2012\desktop\rgz\settings_window.c(62): warning C4047: функция: "HINSTANCE" отличается по уровням косвенного обращения от "LONG_PTR"
+c:\users\2012\desktop\rgz\settings_window.c(62): warning C4024: CreateWindowExA: различные типы для формального и фактического параметров 11
+c:\users\2012\desktop\rgz\settings_window.c(71): warning C4047: функция: "HINSTANCE" отличается по уровням косвенного обращения от "LONG_PTR"
+c:\users\2012\desktop\rgz\settings_window.c(71): warning C4024: CreateWindowExA: различные типы для формального и фактического параметров 11
+  Создание кода
+  All 48 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  RGZ.vcxproj -> C:\Users\2012\Desktop\RGZ\x64\Release\RGZ.exe

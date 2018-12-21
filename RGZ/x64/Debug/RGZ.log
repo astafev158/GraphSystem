@@ -1,0 +1,17 @@
+﻿  main.c
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\shared\minwindef.h(130): warning C4005: APIENTRY: изменение макроопределения
+  c:\users\2012\desktop\rgz\include\glfw\glfw3.h(98): note: см. предыдущее определение "APIENTRY"
+c:\users\2012\desktop\rgz\main.c(94): warning C4047: функция: "GLuint" отличается по уровням косвенного обращения от "GLuint *"
+c:\users\2012\desktop\rgz\main.c(94): warning C4024: __glewGetProgramInfoLog: различные типы для формального и фактического параметров 1
+c:\users\2012\desktop\rgz\main.c(170): warning C4047: инициализация: "LPVOID *" отличается по уровням косвенного обращения от "LPARAM"
+c:\users\2012\desktop\rgz\main.c(171): warning C4047: инициализация: "int" отличается по уровням косвенного обращения от "LPVOID"
+c:\users\2012\desktop\rgz\main.c(234): warning C4047: функция: "LPARAM" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(234): warning C4024: create_window: различные типы для формального и фактического параметров 2
+c:\users\2012\desktop\rgz\main.c(235): warning C4133: функция: несовместимые типы - из "LPVOID *" в "figure **"
+c:\users\2012\desktop\rgz\main.c(235): warning C4047: функция: "HWND **" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(235): warning C4024: init_figures: различные типы для формального и фактического параметров 3
+c:\users\2012\desktop\rgz\main.c(235): warning C4047: функция: "int *" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(235): warning C4024: init_figures: различные типы для формального и фактического параметров 4
+c:\users\2012\desktop\rgz\main.c(280): warning C4047: функция: "LPARAM" отличается по уровням косвенного обращения от "LPVOID *"
+c:\users\2012\desktop\rgz\main.c(280): warning C4024: on_settings_click: различные типы для формального и фактического параметров 3
+  RGZ.vcxproj -> C:\Users\2012\Desktop\RGZ\x64\Debug\RGZ.exe
